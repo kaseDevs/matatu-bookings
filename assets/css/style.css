@@ -1,0 +1,172 @@
+/* styling container */
+/* .container{
+    border: 2px solid black;
+    padding: 20px;
+} */
+/* end of styling container */
+/* header */
+.header{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+}
+/* end of header */
+/* logo */
+.logo{
+    /* background-color: aliceblue; */
+    padding: 20px;
+    background-image: url(../images/logo.svg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 80px;
+    border-radius: 20px;
+}
+
+/* nav menu */
+/* profile title */
+.project-title{
+    /* background-color: antiquewhite; */
+    background-image: url(../images/top-head.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 60px 0px;
+    padding: 5px;
+    color: white;
+}
+/* end of profile title */
+.nav-menu{
+    /* background-color: antiquewhite; */
+    background-image: url(../images/top-head.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 60px 0px;
+    padding: 5px;
+    color: black;
+}
+/* //nav menu */
+.nav-menu ul{
+    display: flex;
+    margin-right: 50px;
+}
+.nav-menu ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.nav-menu ul li:hover{
+   cursor: pointer;
+   /* background-color: black; */
+   color: brown;
+   /* font-size: 2rem; */
+}
+
+/* home styling */
+.home{
+    display: flex;
+    /* background-color: cadetblue; */
+    background: linear-gradient(to top, #000000 0%, cadetblue 100%);
+    min-height: 400px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.video-ad{
+    /* border: 2px solid red; */
+    min-width: 300px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.route-form{
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+.route-form form{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.route-form form select{
+    width: 300px;
+    padding: 10px;
+}
+
+
+.route-form form input{
+    /* width: 300px; */
+    padding: 10px;
+}
+
+.route-button{
+    background-color: black;
+    color: aliceblue;
+}
+.route-button:hover{
+    cursor: pointer;
+    background-color: rgb(223, 216, 216);
+    color: black;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.contact-us form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-us form input{
+ padding: 10px;
+ width: 300px;
+}
+.info-routes li{
+    list-style-type: none;
+    margin: 10px;
+  
+}
+.info-routes
+{
+ margin-top: 30px;
+background-image: -webkit-linear-gradient(45deg, #111 50%, #024353 50%);
+height: 200px;
+/* width: 200px; */
+position: relative;
+/* left: 0;
+right: 0;
+bottom:0; */
+/* top:0; */
+/* margin: auto; */
+box-shadow: 0px 0px 10px 2px #000;
+animation: ver-rotate 5s infinite linear;
+}
+@keyframes ver-rotate
+{
+from
+{
+transform: rotateX(0deg);
+}
+to
+{
+transform: rotateX(360deg);
+}
+}
+.social-media ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+/* end footer */
